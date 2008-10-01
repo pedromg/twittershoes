@@ -1,0 +1,13 @@
+TwitterShoes 
+============
+
+ruby script created to be a Twitter (http://www.twitter.com) client, 
+that uses Shoes.rb (http://code.whytheluckystiff.net/shoes) to be run 
+on various platforms (Linux, MacOSX, Windows). Shoes.rb is a winner !!
+
+Please have Shoes installed on your operating system of choice.
+The original idea was to create a simple Twitter client based on the intention
+of testing Shoes.rb
+
+Please feel free to give a hand and produce some code, review it, fix bugs, etc.
+

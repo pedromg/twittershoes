@@ -1,5 +1,5 @@
 # TwitterShoes.rb
-# v0.6 > 29-03-2008
+# v0.6.1 > 29-09-2008
 # Last tested on shoes-0.r396
 # by pedro mg (http://blog.tquadrado.com)
 # TwitterShoes is a ruby script created to be a Twitter (http://www.twitter.com) client, that uses
@@ -293,9 +293,9 @@ class Tshoe < Shoes
       end
       stack :width => 50 do
         para(link(" Update ", :size => 8, :font => "Arial", :fill => "#4992E6" , :stroke => "#D5E0ED", :underline => false) { upandaway })
-        para(link("<  ", :size => 8, :font => "Arial", :stroke => "#3276BA", :underline => false) { alert("previous page (temporarily disabled by Twitter)") },
+        para(link("<· ", :size => 8, :font => "Arial", :stroke => "#3276BA", :underline => false) { alert("previous page (temporarily disabled by Twitter)") },
              "  1  ", 
-             link("  >", :size => 8, :font => "Arial", :stroke => "#3276BA", :underline => false) { alert("next page (temporarily disabled by Twitter)") }, :top => 15, :size => 7, :font => "Arial", :stroke => "#3276BA", :underline => false)
+             link(" ·>", :size => 8, :font => "Arial", :stroke => "#3276BA", :underline => false) { alert("next page (temporarily disabled by Twitter)") }, :top => 15, :size => 7, :font => "Arial", :stroke => "#3276BA", :underline => false)
         @remaining = para "140", " chars", :top => 30, :size => 6, :font => "Arial", :stroke => "#3276BA"
       end
     end
@@ -305,6 +305,4 @@ end
 
 
 Shoes.app :title => "Twitter needs Shoes", :width => 300, :height => 550, :radius => 12, :resizable => true
-
-
 
