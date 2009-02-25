@@ -14,6 +14,15 @@ Please feel free to give a hand and produce some code, review it, fix bugs, etc.
 
 * Shoes.rb (http://github.com/why/shoes) installed on your operating system of choice.
 
+* You need to create a directory named ".twittershoes" (without the "") in
+  your home directory. In that directory, create a file named
+  "twittershoes.yaml" with the following format:
+  
+    user: <your twitter username>
+    passwd: <your twitter password>
+
+  (without the <>).
+  
 == INSTALL:
 
 * copy to a folder of yours and open using Shoes binary 

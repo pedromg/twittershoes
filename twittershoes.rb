@@ -84,7 +84,7 @@ class Twitter
   def initialize
     @user, @passwd, @timeline, @state = '', '', 'me', ''
     @path = "#{user_home}/.twittershoes"
-    @file = "#{@path}/twitterhoes.yaml"
+    @file = "#{@path}/twittershoes.yaml"
   end
 
   def credentials(u,p,n) # user, pass, new user ?
